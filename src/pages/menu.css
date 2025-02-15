@@ -1,0 +1,130 @@
+.menu-setter{
+    box-sizing: border-box;
+    display: flex;
+    width: 24%;
+    margin: auto;
+    justify-content: center;
+}
+.menu-setter .forms{
+    box-sizing: border-box;
+    display: flex;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    background-color: white;
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+}
+.change-username , .change-password {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+}
+.change-username input , .change-password input{
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-stretch: condensed;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 90%;
+    font-size: 16px;
+    text-align: center;
+}
+.change-username button , .change-password button{
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    background-color: #0277ba;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+.edit-profile .close
+{   
+    display: flex;
+    justify-content: end;
+    cursor: pointer;
+    outline-width: 2px;
+    margin:-5px 0px 10px 0px;
+}  
+.choose-edit {
+    display:flex ;
+    gap: 10px;
+    width: 95%;
+    justify-content: center;
+    margin: auto;
+    padding: 0px 0px 20px 0px;
+}
+    
+.choose-edit button{
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: grey;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: 'Courier New', Courier;
+}
+.choose-edit button:hover{
+    background-color: #0277ba;
+    color: white;
+}
+.choose-edit  .active{
+    background-color:tomato;
+    color: white;
+}
+.delete-account{
+    box-sizing: border-box;
+    display: flex;
+    padding: 0px 7px 0px 7px;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 10px;
+    background-color: white;
+    width: 100%;
+    margin: auto;
+}
+.delete-account .close{
+    display: flex;
+    justify-content: end;
+    cursor: pointer;
+    outline-width: 2px;
+    margin:-5px 0px 0px 0px;
+}
+.delete-account p{
+    font-size: 16px;
+    color:red;
+    font-style: oblique;
+}
+.delete-account select{
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-stretch: condensed;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+    font-size: 16px;
+    text-align: center;
+}
+.delete-account input{
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-stretch: condensed;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 90%;
+    font-size: 16px;
+    text-align: center;
+}
+.delete-account button{
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    background-color: #0277ba;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}

@@ -1,26 +1,18 @@
 import React from 'react'
+import NavBar from './NavBar'
+import './home.css'
 const HomePage = () => {
   return (
     <div className='homePage'>
-        <nav className='navigation-bar'>
-            <div className='navigation-list'>
-                 <ul>
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Contact</li>
-                    <li>Login</li>
-                 </ul>
-            </div>
-        </nav>
+      <NavBar/>
         <div className='tellme'>
           <p>Track Your Progress, Elevate Your Potential</p>
         </div>
              <div className='images'>
-                <img src="https://t3.ftcdn.net/jpg/01/40/53/12/360_F_140531219_chCHBmALfRuKyyfZasWWT8eIM4f6wC2P.jpg" alt="Productivity Tools" width="100%"/>  
                 <img src="https://www.proofhub.com/articles/wp-content/uploads/2023/11/Productivity-Tools-That-Will-Make-Your-Life-Much-Easier.jpg" alt="Productivity Tools" width="100%"/>   
             </div>
                 <div className='tellme-header'><h3>Tell me Your day</h3><p><strong>your personal productivity tracker</strong></p></div>
-        <div className='container'>
+        <div className='container'id='about'>
           <div className='use1'>
               <p><strong>✅ Track Your Day</strong></p>
               <p>With the TellMe App, you can effortlessly log what you’ve achieved each day—whether it's a work task, a personal goal, or simply something you enjoy. The app helps you categorize and track your activities in real time, giving you a detailed overview of your day. By visually seeing what you’ve accomplished, you’ll feel motivated to keep up the momentum and make the most out of your time.</p>
@@ -34,6 +26,9 @@ const HomePage = () => {
               <p>TellMe is more than just a task tracker. It’s a tool that helps you stay organized, plan your time efficiently, and eliminate distractions. The app empowers you to prioritize tasks based on importance, ensuring that you focus on what matters most. Whether you're managing work tasks, personal projects, or leisure activities, TellMe keeps you organized, motivated, and moving forward with a clear direction. Transform your intentions into tangible results by staying productive every day.</p>
           </div>
         </div>
+        <div className='contact'id='contact'>
+                 <p>Fop any queries or feedback, reach out to us at: <a href="http://www.lezih2500@gmail.com">contact@tellme.com</a></p>
+          </div>
     </div>
 
   )

@@ -1,0 +1,84 @@
+/* login.css */
+
+.login-page {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh;
+    background: linear-gradient(to bottom, #f0f0f0, #e0e0e0);
+}
+
+.form {
+    display: flex;
+    align-items: stretch; /* Make child elements equal height */
+    justify-content: center;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 80%; 
+    max-width: 800px; 
+}
+
+.default{
+    width: 70%; /* Each image takes half the space */
+    object-fit: cover; /* Maintain aspect ratio */
+    border-radius: 8px;
+}
+
+.input-forms {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 50%;
+    padding-left: 20px;
+}
+.forget-create
+ {  cursor: pointer;
+    flex-direction: column;
+    text-align: center;
+    color: #007bff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.forget-create :hover{
+    color: #b38f00;
+}
+.forget-create :active
+{   
+    color: red;
+}
+.input-forms input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    text-align: center;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+.input-forms button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.input-forms button:hover {
+    background-color: #0056b3;
+}
+
+.footer {
+    margin-top: auto; /* Push footer to the bottom */
+    padding: 10px;
+    text-align: center;
+    background-color: #fafafa;
+    width: 100%;
+    border-top: 1px solid #ccc;
+}
