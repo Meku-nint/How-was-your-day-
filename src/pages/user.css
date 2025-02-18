@@ -1,7 +1,11 @@
 body {
     overflow-x: hidden;
+    overflow-y: visible;
 }
-
+.blur{
+    filter: blur(5px);
+    
+}
 .user-page {
     position: relative;
     margin-top: 100px;

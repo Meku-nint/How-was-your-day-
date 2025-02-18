@@ -4,18 +4,18 @@
     width: 24%;
     margin: auto;
     justify-content: center;
+    align-items: center;
+
 }
 .menu-setter .forms{
+    margin-top: 40%;
+    position: fixed;
     box-sizing: border-box;
-    display: flex;
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0,0,0,0.2);
     background-color: white;
-    width: 100%;
-    margin: auto;
-    justify-content: center;
 }
 .change-username , .change-password {
     display: flex;
@@ -27,6 +27,7 @@
     padding: 10px;
     font-family: 'Times New Roman', Times, serif;
     font-stretch: condensed;
+    margin-bottom: 10px;
     border-radius: 5px;
     border: 1px solid #ccc;
     width: 90%;
